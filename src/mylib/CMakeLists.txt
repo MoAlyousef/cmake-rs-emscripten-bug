@@ -5,5 +5,5 @@ add_library(mylib lib.c)
 
 install(
     TARGETS mylib
-    ARCHIVE DESTINATIONcod ${CMAKE_INSTALL_PREFIX}
+    ARCHIVE DESTINATION ${CMAKE_INSTALL_PREFIX}
 )
