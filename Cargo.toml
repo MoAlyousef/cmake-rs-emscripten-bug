@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [build-dependencies]
-cmake = "0.1.51"
+cmake = { git = "https://github.com/MoAlyousef/cmake-rs" }
